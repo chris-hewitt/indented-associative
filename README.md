@@ -2,9 +2,9 @@
 Analysis of various ways to represent multilevel indented data
 
 ## Abstract
-There are several ways to represent hierarchical data:
-* As indented text
-'''
+There are several common ways to represent hierarchical data:
+* As indented text:
+```
 animals
 	dog
 	cat
@@ -15,8 +15,17 @@ fruits
 		banana
 leaf
 
-'''
-* As an associative array
-'''
-'''
+```
+* As an associative array:
+```
+'dog' => 'apple',
+'cat' => array(
+	'fruit' => 'banana',
+	'third-level' => array(
+		'red' => 'blue',
+		'green' => 'red',
+	),
+	1 => 'hello',
+)
+```
 
