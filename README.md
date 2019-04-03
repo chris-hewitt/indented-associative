@@ -30,6 +30,7 @@ leaf
 ```
 
 ## Possible Array Representations
+```
 1: everything is stored as keys, and everything has a child array. this method is susceptible to key overwriting if the source data has duplicate entries at the same level
 	array(
 		'basic' => array(),
@@ -117,3 +118,4 @@ leaf
 			),
 			3 => 'nothing',
 		)
+```
