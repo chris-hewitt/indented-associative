@@ -1,4 +1,4 @@
-# Indented <--> Associative
+# Indented To Associative
 Analysis of various ways to represent multilevel indented data
 
 ## Abstract
